@@ -1,0 +1,171 @@
+.app {
+  background-color: white;
+
+  .header {
+    padding: 21px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.47);
+    box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 0px 0px 14px 14px;
+
+    .bellIcon {
+      margin-left: auto;
+    }
+  }
+
+  .firstSection {
+    margin-top: 56px;
+    padding: 0 15px;
+    padding-top: 53px;
+    background: linear-gradient(
+      180deg,
+      #fff6fb 0%,
+      #e7f6fc 33.33%,
+      rgba(213, 224, 255, 0) 100%
+    );
+
+    .heading2 {
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #1b1b50;
+    }
+
+    .para {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 179%;
+      /* or 25px */
+
+      color: #000000;
+    }
+
+    .hr {
+      margin: 26px 32px 32px 46px;
+      color: #000;
+    }
+
+    .sans {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 179%;
+      /* or 29px */
+
+      text-align: center;
+
+      color: #1b1b50;
+    }
+
+    .firstBenefits {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 45px;
+
+      .benefit {
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+        align-items: center;
+
+        .benefitIcon {
+          width: 70px;
+          height: 54px;
+        }
+
+        .benefitTxt {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 179%;
+          /* or 29px */
+
+          text-align: center;
+
+          color: #1b1b50;
+          margin: 0;
+        }
+      }
+    }
+
+    .lastP {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 179%;
+      /* or 29px */
+
+      text-align: center;
+
+      color: #1b1b50;
+      margin: 66px 0 45px 0;
+    }
+  }
+
+  .secondSection {
+    padding: 39px 36px;
+    background: linear-gradient(
+      165.41deg,
+      #d99ec9 0%,
+      rgba(246, 240, 196, 0) 100%
+    );
+
+    h1 {
+      text-align: left !important;
+    }
+
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 180%;
+      /* or 25px */
+
+      color: #1b1b50;
+    }
+  }
+
+  h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #1b1b50;
+  }
+
+  .heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #1b1b50;
+  }
+}
